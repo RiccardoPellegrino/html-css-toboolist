@@ -2,7 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(216, 216, 207);
 }
 h1{
     display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: white;
+    position: absolute;
+    top: 3px;
+    left: 80px;
+}
+#headerLogo{
+    position: relative;
+    background-color: white;
+    width: auto;
+
+}
+#logo{
+    background-color: white;
+    margin-left: 20px;
+}
+.bloccoCentrale{
+    background-color: rgba(255, 254, 254, 1);
+    width: 1200px;
+    height: 800px;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .bottoneCeleste{
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  h2{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+  }
+  .bootoneViola{
+    background-color: #9C72E4;
+    margin-left: 10px;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+    font-size: 9px;
+}
+details{
+    outline: none;
+}
+summary{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
