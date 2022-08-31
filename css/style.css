@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: rgb(248, 248, 241);
+    background-color: #F6F8F9;
 }
 
 h1 {
     display: inline-block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background-color: white;
     position: absolute;
@@ -31,25 +31,36 @@ h1 {
 
 .bloccoCentrale {
     background-color: rgba(255, 254, 254, 1);
-    width: 70%;
+    width: 90%;
+    height: 800px;
     border-radius: 2%;
     margin: auto;
     margin-top: 10px;
 }
 .primoBottoneCeleste{
     border-radius: 8px;
-    background-color: rgb(37, 132, 248);
+    border-color: #47ADF1;
+    background-color: #47ADF1;
     font-size: 10px;
-    padding: 8px;
+    padding: 10px;
     color: white;
     margin-top: 15px;
     margin-left: 50px;
 }
+.bottoneBianco {
+    border-radius: 8px;
+    border-color: white;
+    background-color: #ffffff;
+    font-size: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    color: rgb(181, 178, 178);
+}
 .bottoneCeleste {
     border-radius: 20px;
-    background-color: blue;
+    background-color:#47ADF1;
     font-size: 10px;
-    padding: 8px;
+    padding: 10px;
     color: white;
     
 }
@@ -59,40 +70,32 @@ h1 {
     margin-left: 10px;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
 }
 
-.bottoneBianco {
-    background-color: #ffffff;
-    margin-left: 10px;
-    border-radius: 8px;
-    color: rgb(181, 178, 178);
-    padding: 5px;
-    font-size: 10px;
-}
 .bottoneArancione {
-    background-color: #d48122;
+    background-color:#F29E33;
     margin-left: 10px;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
 }
 .bottoneRosa {
-    background-color: #e555c1;
+    background-color: #D863A1;
     margin-left: 10px;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
 }
 .bottoneVerde {
-    background-color: #1cd24a;
+    background-color: #64C0A9;
     margin-left: 10px;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
 }
 .bottoneGiallo {
@@ -100,7 +103,7 @@ h1 {
     margin-left: 10px;
     border-radius: 20px;
     color: white;
-    padding: 5px;
+    padding: 10px;
     font-size: 10px;
 }
 details {
@@ -117,7 +120,7 @@ summary {
 hr {
     height: 5px;
     border: 1;
-    background-color:rgb(248, 248, 241);
+    background-color:#F6F8F9;
     margin-top: 10px;
 }
 p{
@@ -128,7 +131,7 @@ p{
 }
 .freccettaVerde{
     display: inline-block;
-    color: greenyellow;
+    color: #94D5C5;
     border-bottom: #9C72E4;
     width: 25px;
     height: 25px;
@@ -147,5 +150,5 @@ p{
     border: solid;
     text-align: center;
     border-radius: 50%;
-    line-height: 20px;
+    line-height: 19px;
 }
